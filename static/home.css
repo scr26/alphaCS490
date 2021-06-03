@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e9e9e9;
+}
+
+.container {
+    margin: 18% auto 0;
+    text-align: center;
+    background: #FFFFFF;
+    width: 25%;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.links {
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #79248E;
+    margin-left: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: orange;
+    transition: .3s;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 35% auto 0;
+        width: 40%;
+    }
+
+    .links {
+        margin-top: 20px;
+    }
+
+}

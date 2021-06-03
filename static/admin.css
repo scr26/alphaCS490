@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e9e9e9;
+}
+
+span {
+    color: #d3772c;
+}
+
+.logout {
+    margin-top: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: #79248E;
+    font-size: 18px;
+}
